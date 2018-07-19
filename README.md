@@ -1,5 +1,5 @@
 
-# star-wars-api
+# Star-Wars-API
 
 > Single page application that gets a list of data from an API and allows a user to click into detailed view.
 
