@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # star-wars-api
 
 > Single page application that gets a list of data from an API and allows a user to click into detailed view.
@@ -16,7 +16,3 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
-# Star-Wars-API
->>>>>>> 57dae24925db49d912ab2342f6aaa023c43fb9d0
