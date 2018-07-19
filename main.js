@@ -8,7 +8,7 @@
   mounted () {
     
     axios
-      .get('https://swapi.co/api/people/?format=json&page=3')
+      .get('https://swapi.co/api/people/?format=json&page=')
       .then(response => (this.info = response.data.results))
       .catch(error => console.log(error))
 	
