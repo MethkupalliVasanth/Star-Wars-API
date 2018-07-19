@@ -18,8 +18,6 @@ sudo npm install npm -g
 
 cd Star-Wars-API
 
-
-
 # install dependencies
 npm install
 
