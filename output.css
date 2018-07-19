@@ -1,0 +1,36 @@
+.body {
+  background-color: black;
+  color: #FFD700;
+}
+
+.h3 {
+  background-color: #FFD700;
+  color: black;
+}
+
+.div {
+  background-color: navyblue;
+}
+
+table {
+  background-color: yellow;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: height-footer;
+  background-color: #f5f5f5;
+}
+
+.footer-block {
+  margin: 20px 0;
+}
+
+.row {
+  min-height: 100%;
+  position: relative;
+}
+
+/*# sourceMappingURL=output.css.map */
