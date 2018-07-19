@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>
+      STAR WARS!
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
+    
+    <!-- SASS integration -->   
+    <link rel="stylesheet" href="style.sass"
+
+  </head>
+
+  <body>  
+    <br/>
+    <h1 align="center">Star Wars Character List</h1> 
+    <br/>
+       <div id="app">
+         <div v-for="star in info" class="star">
+            <div class="card" align="center">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <div >
+                          Name: {{ star.name }} 
+                      </div>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" >
+                  <div class="card-body">
+                    <div>
+                    Gender: {{ star.gender }} <br/>
+                    Mass: {{ star.mass }} <br/>
+                    Har Color: {{ star.hair_color }} <br/>
+                    Eye Color: {{ star.eye_color }} <br/>
+                    Birth Year: {{ star.birth_year }} <br/>
+                  </div>
+                </div>      
+              </div>
+            </div>
+          </div> 
+
+        <!--[ footer ] -->
+        <div id="footer">
+          <div class="container" align="center">
+          <p class="footer-block">May the force be with you!</p>
+          </div>
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vuex@3.0.1/dist/vuex.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.js"></script>	
+    <script src="./main.js"></script>
+    <script src="./node_modules/bootstrap/dist/css/bootstrap.css"></script>
+    <script src="./node_modules/bootstrap-vue/dist/bootstrap-vue.css"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
